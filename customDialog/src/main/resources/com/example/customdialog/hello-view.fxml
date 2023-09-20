@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.customdialog.HelloController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="openDialogBtn" layoutX="86.0" layoutY="76.0" mnemonicParsing="false" onAction="#openDialog" text="Open Dialog" />
+            <Button fx:id="openVBox" layoutX="274.0" layoutY="76.0" mnemonicParsing="false" onAction="#openVBox" text="open VBox" />
+            <Button layoutX="199.0" layoutY="146.0" mnemonicParsing="false" onAction="#customVBox" text="Custom" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

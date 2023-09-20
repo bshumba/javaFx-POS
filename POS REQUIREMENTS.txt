@@ -1,0 +1,14 @@
+POS REQUIREMENTS
+
+ADMIN SIDE
+
+1.	Authentication - Super Admin Registers all users
+2.	Super Admin - Should be able to revoke user privilages
+3. 	Create and print standard barcodes for products that do nt have standard barcode
+
+
+TELLER SIDE
+1.	Display all stock items greater than 0
+2. 	Search product by name and Barcode
+3.	Filtering using barcode only starts after the 10th r 11th digits
+

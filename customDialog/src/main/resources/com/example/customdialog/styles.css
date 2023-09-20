@@ -1,0 +1,13 @@
+.dialog-bg {
+    -fx-background-color: #50C797;
+}
+
+.btn-primary {
+    -fx-background-color: rgb(18, 50, 233);
+    -fx-text-fill: #fff;
+}
+
+.btn-danger {
+    -fx-background-color: rgb(252, 5, 5);
+    -fx-text-fill: #fff;
+}
